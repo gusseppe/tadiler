@@ -14,7 +14,7 @@ Incremental learning, inspired by the adaptive nature of human learning, enables
 - **Sampling Procedure**: Ensure balanced representation of each class within the ER buffer by stratified sampling.
 - **Experience Replay Algorithm**: Update the replay buffer with strategically sampled experiences to ensure effective learning and retention across tasks.
 
-![Method Overview](proposal.pdf)
+![Method Overview](proposal.png)
 *Figure 1: Our method uses a Large Language Model (LLM) to generate descriptions $d_i$ for each image $x$, using metadata $m_i$ for initial domain learning in Task 0. These descriptions underpin unsupervised zero-shot clustering, forming clusters $x_i$. Key points from these clusters are buffered for replay. A multi-head classifier leverages this buffer in an Experience Replay (ER) strategy, learning the pertinent head $i$ for predictions $y$, thus preserving knowledge across successive tasks.*
 
 ## Experiments
