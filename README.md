@@ -25,13 +25,13 @@ Incremental learning, inspired by the adaptive nature of human learning, enables
 - **Evaluation**: Average Mean Class Accuracy (AMCA) to assess model performance.
 
 ### Results
-![Fundus Images](fundus_images.pdf)
+![Fundus Images](fundus_images.png)
 *Figure 2: Fundus images representing different tasks with varying image quality and conditions. From left to right: Task 0 shows a fundus photograph with uniform image quality; Task 1 displays a fundus photograph with some variation in lighting; Task 2 is an image with artificially added Gaussian noise to simulate a challenging imaging condition.*
 
-![AMCA Evaluation Naive Strategy](tadiler_diabetes_Naive.pdf)
+![AMCA Evaluation Naive Strategy](tadiler_diabetes_Naive.png)
 *Figure 3: AMCA evaluation using different strategies and our approach for each number of samples and for all the tasks.*
 
-![AMCA Evaluation EWC Strategy](tadiler_diabetes_EWC.pdf)
+![AMCA Evaluation EWC Strategy](tadiler_diabetes_EWC.png)
 *Figure 4: AMCA evaluation using different strategies and our approach for each number of samples and for all the tasks.*
 
 - **Naive + Our Approach**: The marginal increase in AMCA with the Naive strategy suggests that even the most basic form of incremental learning can benefit from zero-shot learning capabilities.
@@ -40,7 +40,7 @@ Incremental learning, inspired by the adaptive nature of human learning, enables
 - **GEM + Our Approach**: Noticeable improvement in AMCA suggests better gradient alignment and superior task retention.
 
 ### Confusion Matrix
-![Confusion Matrix](ConfusionMatrix_0.pdf)
+![Confusion Matrix](ConfusionMatrix_0.png)
 *Figure 5: Confusion matrix of the zero-shot clustering for Task 0. The pair {"Optical image shows", Set 3} yields the best score. The worst pair is {"No template", Set 1}.*
 
 ## Conclusion
